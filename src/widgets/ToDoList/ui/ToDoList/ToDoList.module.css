@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.text_no_tasks {
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-top: 5em;
+}
+
+.container {
+  width: clamp(22.5rem, 12.642rem + 41.509vw, 50rem);
+  display: grid;
+  gap: 2rem;
+  margin-top: 2em;
+}
+
+.list {
+  display: grid;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+.container_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.container_texts {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+}
+
+.button_remove {
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(255, 56, 86);
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.button_white {
+  background-color: white;
+  color: black;
+}
+
+.button_remove:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+.button_remove:active {
+  background-color: rgb(255, 56, 86);
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.container_modal_buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.container_modal {
+  padding: 1em 2em;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  display: grid;
+  gap: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .container_buttons {
+    gap: 1em;
+  }
+}
