@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import toDoReducer from '../../entities/todo/model/toDoSlice.ts';
+import toDoReducer from '../../entities/todo/model/toDoSlice';
 
 const loadSave = () => {
 	try {
