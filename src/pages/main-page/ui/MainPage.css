@@ -42,7 +42,7 @@ header {
 
 main {
 	display: flex;
-	gap: 10px;
+	gap: 2em;
 	margin-top: 2em;
 	flex-direction: column;
 	flex-wrap: wrap;

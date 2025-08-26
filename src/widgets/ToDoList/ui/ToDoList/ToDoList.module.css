@@ -14,7 +14,6 @@
   width: clamp(22.5rem, 12.642rem + 41.509vw, 50rem);
   display: grid;
   gap: 2rem;
-  margin-top: 2em;
 }
 
 .list {

@@ -4,7 +4,7 @@ import viteTsconfigPaths from "vite-tsconfig-paths";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'toDo-app-on-Redux',
+  base: '/todo/',
   build: {
     outDir: 'dist'
   },
